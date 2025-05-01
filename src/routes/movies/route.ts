@@ -1,12 +1,12 @@
 import express from 'express';
-import { authMiddleware } from '../middlewares/auth';
+import { authMiddleware } from '../../middlewares/auth';
 import {
   createMovie,
   listMovies,
   getMovieById,
   updateMovie,
-} from '../controllers/movieController';
-import { upload } from '../middlewares/upload';
+} from '../../controllers/movieController';
+import { upload } from '../../middlewares/upload';
 
 const router = express.Router();
 
