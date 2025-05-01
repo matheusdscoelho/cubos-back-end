@@ -11,6 +11,7 @@ export async function listMovies(req: Request, res: Response, next: NextFunction
       dateStart,
       dateEnd,
       minBudget,
+      maxBudget,
       page = '1',
       limit = '10',
     } = req.query
@@ -36,6 +37,11 @@ export async function listMovies(req: Request, res: Response, next: NextFunction
 
     if (minBudget) {
       where.budget = { gte: Number(minBudget) }
+    }
+
+    
+    if (maxBudget) {
+      where.budget = { lte: Number(maxBudget) }
     }
 
     const skip = (Number(page) - 1) * Number(limit)
