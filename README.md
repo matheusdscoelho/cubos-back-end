@@ -87,7 +87,6 @@ npm run dev
 | `POST` | `/movies` | Cria um novo filme. |
 | `POST` | `/auth/register` | Cadastra um novo usuário. |
 | `POST` | `/auth/login` | Autentica e retorna um token JWT. |
-| `POST` | `/movies/:id/share` | Compartilha um filme com outro usuário. |
 
 ---
 
