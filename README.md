@@ -1,7 +1,4 @@
-
 ---
-
-```markdown
 # 🎬 Cubos Filmes - API Backend
 
 Este é o backend do projeto **Cubos Filmes**, uma API RESTful desenvolvida com **Node.js** e **Express** que permite gerenciar um catálogo de filmes. Ela possibilita:
@@ -120,6 +117,4 @@ Desenvolvido como parte do projeto Cubos Filmes.
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.
-```
-
 ---
