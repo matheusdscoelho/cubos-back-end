@@ -17,7 +17,7 @@ export function createServer() {
 
   // Routes
   app.use('/auth', authRoutes)
-  app.use('/movies', moviesRoutes)
+  app.use('/api/movies', moviesRoutes)
   app.use('/test', testRoutes)
 
   return app
